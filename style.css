@@ -1,0 +1,226 @@
+/* navbar */
+
+/* .navbar-dark .navbar-nav .nav-link {
+    color: rgba(255,255,255) !important;
+    font-weight: 400;
+} */
+
+#top_nav{
+    padding: 0  6%;
+    background-color: rgba(228, 116, 116, 0.9);
+}
+
+
+@media only screen and (max-width: 768px) {
+    .navbar-light .navbar-nav .nav-link {
+        color: rgba(0,0,0,.55);
+        padding: 1% 18%;
+        font-size: 28px;
+        border: 1px solid;
+        margin: 2% 25%;
+        border-radius: 15px;
+    }
+}
+
+
+@media only screen and (max-width: 500px){
+    .navbar-light .navbar-nav .nav-link {
+        color: rgba(0,0,0,.55);
+        padding: 1% 14%;
+        font-size: 20px;
+        border: 1px solid;
+        margin: 2% 25%;
+        border-radius: 7px;
+    }
+}
+
+
+/* background image */
+
+.slide{
+   margin: 0 4%;
+   width: 1350px;
+   height: 550px;
+}
+
+
+@media only screen and (max-width: 1024px){
+    .slide{
+        margin: 0 0;
+        width: 1024px;
+        height: 450px;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .slide{
+        margin: 0 0;
+        width: 768px;
+        height: 360px;
+    }
+}
+        
+@media only screen and (max-width: 360px){
+    .slide{
+        margin: 0 0;
+        width: 360px;
+        height: 200px;
+    }
+}
+
+
+/* text */
+
+#text-main{
+    font-size: 45px;
+}
+
+#text-h1{
+    font-size: 33px;
+    padding: 0 17%;
+}
+
+#text-p{
+    font-size: 20px;
+    padding: 2% 12%;
+    text-align: justify;
+}
+
+#btn{
+    background-color: black;
+    color: white;
+    border: 0;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+#button{
+   text-align: center;
+   margin-bottom: 30px;
+}
+
+@media only screen and (max-width: 768px){
+    #text-p{
+        padding: 2% 5%;
+    }
+
+    #text-h1{
+        padding: 0 5%;
+    }
+}
+
+@media only screen and (max-width: 360px){
+    #text-main{
+        font-size: 28px;
+        padding: 0 0;
+    }
+    
+    #text-h1{
+        font-size: 25px;
+        padding: 0 2%;
+    }
+    
+    #text-p{
+        font-size: 16px;
+        padding: 2% 1%;
+    }
+}
+
+
+
+/* meet kingsley */
+
+.text-p1{
+    font-size: 20px;
+}
+
+.btn1{
+    background-color: black;
+    color: white;
+    border: 0;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.button1{
+    text-align: left;
+   margin-bottom: 30px;
+}
+
+@media only screen and (max-width: 768px){
+    .text-p1{
+        font-size: 17px;
+    }
+
+}
+
+
+/*  contact  */
+
+.btn2{
+    background-color: black;
+    color: white;
+    border: 0;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.button2{
+    text-align: center;
+   margin-bottom: 30px;
+}
+
+
+/* follow kbk */
+
+.bi{
+    padding: 0 10px;
+}
+
+.bi-instagram{
+    color: rgba(255, 0, 0, 0.644);
+}
+
+
+/* footer */
+
+.footer h3{
+    color: white;
+}
+
+.footer a{
+    text-decoration: none;
+    color: white;
+}
+
+.footer p{
+    color: white;
+}
+
+
+ol, ul {
+    padding-left: 0;
+}
+
+
+.btn3{
+    background-color: rgba(0, 0, 0, 0.432);
+    color: white;
+    border: 2px solid white;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.button3{
+    text-align: left;
+   margin-bottom: 30px;
+}
+
+#footer-1{
+    color: white;
+    text-align: center;
+}
+
+#footer1{
+    color: orange;
+}
